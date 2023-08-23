@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+</head>
+<body>
+    <h1>Perfil</h1>
+
+    <form>
+        <label for="tipo">Tipo:</label>
+        <input type="text" id="tipo" name="tipo" value="ESTUDIANTE" readonly>
+        <br>
+
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+        <br>
+
+        <label for="nacionalidad">Nacionalidad:</label>
+        <select id="nacionalidad" name="nacionalidad">
+            <option value="argentina">Argentina</option>
+            <option value="chilena">Chilena</option>
+            <option value="mexicana">Uruguaya</option>
+            <option value="espanola">Paraguaya</option>
+            <!-- Agrega más opciones según sea necesario -->
+        </select>
+        <br>
+
+        <label for="condicion">Condición laboral:</label>
+        <select id="condicion" name="condicion">
+            <option value="desempleado">Desempleado</option>
+            <option value="busqueda">En búsqueda laboral</option>
+            <option value="part-time">Trabajo part time</option>
+            <option value="full-time">Trabajo full time</option>
+        </select>
+        <br>
+
+        <h2>Gustos Personales</h2>
+
+        <label for="musica">Gustos musicales:</label>
+        <textarea id="musica" name="musica"></textarea>
+        <br>
+
+        <label for="comida">Comidas preferidas:</label>
+        <select id="comida" name="comida">
+            <option value="pizza">Pizza</option>
+            <option value="hamburguesa">Hamburguesa</option>
+            <option value="sushi">Sushi</option>
+            <option value="ensalada">Ensalada</option>
+            <!-- Agrega más opciones de comida según sea necesario -->
+        </select>
+        <br>
+
+        <label for="recordar">Recordar datos:</label>
+        <input type="checkbox" id="recordar" name="recordar">
+        <br>
+
+        <input type="submit" value="Guardar">
+    </form>
+</body>
+</html>
