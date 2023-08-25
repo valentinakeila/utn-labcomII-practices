@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia SALK </title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/ico" href="Imagenes/cruz2.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img src="Imagenes/header2.jpg" width="940px" height="90px" id="farmacia">
+    </header>
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+
+            <h2>Formulario de contacto:</h2>
+            <br>
+            <form>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+        
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" required>
+                
+                <br>
+
+                <label for="color">Color:</label>
+                <textarea id="color" name="color"maxlength="15"></textarea>
+        
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario"></textarea>
+                <br>
+
+                </select>
+                <br>
+        
+                <label for="recordar">Recordar datos:</label>
+                <input type="checkbox" id="recordar" name="recordar">
+                <br>
+        
+                <input type="submit" value="Guardar">
+            </form>
+            
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Ubicación</h2>
+            <p id="punto"> <img src="Imagenes/map.JPG" width="30px" height="30px"> Avenida Provincias Unidas 642</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.603842104764!2d-60.71525578485818!3d-32.93506348092454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6532ef4813cdf%3A0x8b52e8421b757fc3!2sAv.%20Provincias%20Unidas%20642%2C%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1650859695980!5m2!1ses!2sar"
+                width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright labcomII.com</p>
+
+
+
+</body>
+
+</html>
