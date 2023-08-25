@@ -1,0 +1,65 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+h1{
+    font-size: 24px;
+    color: #242424;
+    font-weight:  900px;
+}
+h2{
+    font-size: 20px;
+    color:#606060;
+    font-weight:  800px;
+}
+
+p{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+li{
+    font-size: 18px;
+    font-family: monospace;
+    padding: 20px;
+   padding-top: 10px;
+}
+ul{
+    border: 2px solid blue;
+    width: 40%;
+    margin-left: 100px;
+}
+a{
+    font-weight: bold;
+    color: orange;
+    text-decoration: underline;
+}
+
+#neuquen{
+    color: green;
+}
+#rionegro{
+    color: green;
+}
+
+#neuquenlink{
+    color: green;
+}
+
+#rionegrolink{
+    color: green;
+}
+
+#web{
+    color: black;
+}
+
+ul li span:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
