@@ -129,7 +129,7 @@ textarea {
 
 /* Estilo para el botón de enviar */
 input[type="submit"] {
-    background-color: rgb(204, 202, 202);
+    background-color: #007bff;
     color: #fff;
     border: none;
     padding: 10px 20px;
