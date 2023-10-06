@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <form action="">
+        <div class="form-control">
+            <label>Usuario:</label>
+            <br>
+            <label>
+                <input type="radio" name="tipoUsuario" value="1.21" id="usuario21" required >
+                Residencial (IVA 21%)
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="tipoUsuario" value="1.27" id="usuario27"required>
+                Industrial (IVA 27%)
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="zona">Zona domicilio</label>
+            <select name="zona" id="zona" required>
+                <option disabled selected value="0"> -- Seleccione una
+                    opción -- </option>
+                <option value="5.80">Sur</option>
+                <option value="5.40">Centro</option>
+                <option value="5.35"> Oeste</option>
+                <option value="5.60">Norte</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="cantidad">kWh</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" max="10" required/>
+        </div>
+        <div class="form-control">
+            <button type="button" onclick="cotizar()">Cotizar</button>
+        </div>
+      
+    </form>
+
+
+    
+</body>
+</html>

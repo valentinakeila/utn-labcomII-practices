@@ -1,0 +1,60 @@
+.formularioContacto {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin: 20px 30%;
+    padding: 20px;
+    
+}
+
+.campoForm {
+  
+    margin-right: 10%;
+}
+
+#nombre{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px ;
+    padding: 12px 20px; 
+}
+
+#subject{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px ;
+    padding: 12px 20px;
+}
+
+
+input[type="email"],textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px ;
+    padding: 12px 20px;
+}
+
+
+input[type="submit"] {
+    background-color: rgb(160, 64, 0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    cursor: pointer;
+    margin-left: 10%;
+    
+   
+}
+
+input[type="submit"]:hover {
+    background-color:rgb(220,118,51) }
+
+
+input[type="submit"]:active {
+    background-color: rgb(170, 160, 150); }

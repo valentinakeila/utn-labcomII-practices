@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <script src="index.js"></script>
+    <title>Valentina Garrido</title>
+</head>
+<body>
+    <div class="formularioContacto">
+        <form action="" >
+            <div class="campoForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="campoForm">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="campoForm">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="campoForm">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+            <div class="campoForm">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+
+    <div id="result" class="form-control">
+        <!--Resultado cotización o error-->
+    </div>
+
+    
+
+    <div id="nuevo"></div>
+    
+    <form action="" id="formulario">
+        <div class="form-control">
+            <label for="nueva">Ingrese moneda nueva</label>
+            <input type="text" id="nueva" name="nueva" min="1" max="10" required/>
+        </div>
+       
+          
+    <button type="button" onclick="agregarMoneda()">Crear nueva moneda</button>
+    </div>
+    
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <form action="">
+        <div class="form-control">
+            <label for="cantidad">Cantidad de pesos</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" max="10" required/>
+        </div>
+        <div class="form-control">
+        <div class="form-control">
+            <label for="moneda">Tipo de moneda</label>
+            <select name="moneda" id="moneda" required>
+                <option disabled selected value="0"> -- Seleccione una
+                    opción -- </option>
+                <option value="843">Dolares</option>
+                <option value="905">Euro</option>
+            </select>
+        </div>
+      
+            <button type="button" onclick="cotizar()">Cotizar</button>
+        </div>
+    </form>
+
+    <div id="result" class="form-control">
+        <!--Resultado cotización o error-->
+    </div>
+
+<form action="">
+    <div class="form-control">
+        <label for="nueva">Ingrese moneda nueva</label>
+        <input type="text" id="nueva" name="nueva" min="1" max="10" required/>
+    </div>
+    <div class="form-control">
+        <label for="Valor">Valor</label>
+        <input type="number" id="valor" name="valor" min="1" max="10" required/>
+    </div>
+</div>
+      
+<button type="button" onclick="agregarMoneda()">Crear nueva moneda</button>
+</div>
+
+</form>
+    
+</body>
+</html>

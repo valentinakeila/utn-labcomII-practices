@@ -1,0 +1,94 @@
+header{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: rgb(171, 167, 167);
+    color: white;
+    width: 100%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+
+
+li{
+    list-style-type: none;
+    margin-left: 1%;
+}
+
+header li a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 6px;
+}
+
+.profile{
+   display: flex;
+   justify-content: end;
+}
+
+.main-image{
+    display: flex;
+    justify-content: end;
+}
+
+.img-content{
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+
+.carreras {
+    display: flex;
+    flex-direction: row; /* Colocar todos los elementos en una fila */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .carreras h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .nombreCarreras {
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row; /* Colocar todos los elementos en una fila */
+    background-color: #333;
+    color: #fff;
+
+    justify-content: space-between;
+   
+
+  }
+  
+  .carreras p {
+    font-size: 16px;
+    margin-top: 5px; /* Espacio entre H3 y P */
+    margin-bottom: 20px;
+    width: 20%;
+   margin-right: 5%;
+   margin-left: 5%;
+   text-align: left;
+  }
+  
+  .carreras h3:hover {
+    background-color: rgba(250, 250, 250, 0.3);
+    cursor: pointer;
+  }
+  
+ 
