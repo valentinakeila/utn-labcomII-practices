@@ -128,7 +128,7 @@ textarea {
     font-size: 10px;
 }
 
-/* Estilo para el botón de enviar */
+/* para el boton de enviar */
 input[type="submit"] {
     background-color: #007bff;
     color: #fff;
@@ -139,12 +139,12 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-/* Estilo para el botón de enviar al pasar el mouse */
+/* para el boton */
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Estilo para el checkbox */
+/*  para el puntito */
 input[type="checkbox"] {
     margin-right: 5px;
 }
