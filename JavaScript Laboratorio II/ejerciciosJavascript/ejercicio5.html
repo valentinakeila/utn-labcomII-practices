@@ -1,0 +1,38 @@
+<!--5. Cargar dos números en objetos de tipo text y al presionar un
+botón, mostrar el mayor. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora Mayor</h1>
+    <label for="numero">Ingresa el primer numero:</label>
+    <input type="text" id="numero1">
+    <label for="numero">Ingresa el segundo numero:</label>
+    <input type="text" id="numero2">
+    <button id="calcular" onclick="calcularMayor()">Calcular</button>
+</body>
+</html>
+<script>
+function calcularMayor() {
+    var numero1= document.getElementById("numero1").value;
+    var numero2 = document.getElementById("numero2").value;
+
+    const num1 = parseInt(numero1);
+    const num2 = parseInt(numero2);
+
+if (num1 > num2) {
+    alert("El primer numero es: " + num1 + " osea es mayor")
+} else if(num2 > num1 ) {
+    alert("El segundo numero es: " + num2 + " osea es mayor")
+}else{
+    alert("Son iguales")
+}
+
+
+}
+
+</script>
