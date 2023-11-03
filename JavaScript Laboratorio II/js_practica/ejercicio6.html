@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Verificación de Clave</title>
+    <style>
+        .mensaje-verde {
+            color: green;
+        }
+
+        .mensaje-rojo {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Verificación de Clave</h1>
+    <label for="clave">Clave:</label>
+    <input type="password" id="clave">
+    <button id="validar" onclick="validacion()">Validar</button>
+    <div id="mensaje" class="mensaje-rojo"></div>
+
+    <script>
+
+
+        function validacion() {
+            const claveCorrecta = "miClave";
+            let intentosFallidos = 0;
+            const claveIngresada = document.getElementById("clave").value;
+
+            if (claveIngresada === claveCorrecta) {
+                // Si la clave es correcta, mostrar "Acceso concedido" en verde y resetear el contador de intentos fallidos
+                document.getElementById("mensaje").textContent = "Acceso concedido";
+                document.getElementById("mensaje").className = "mensaje-verde";
+                intentosFallidos = 0;
+            } else {
+                // Si la clave es incorrecta, mostrar "Clave incorrecta" en rojo
+                document.getElementById("mensaje").textContent = "Clave incorrecta";
+                document.getElementById("mensaje").className = "mensaje-rojo";
+                intentosFallidos++;
+
+                if (intentosFallidos >= 3) {
+                    alert("Intruso");
+                    intentosFallidos = 0;
+                }
+            }
+        };
+    </script>
+</body>
+
+</html>
